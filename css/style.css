@@ -1,0 +1,334 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*end of css reset*/
+body {
+    overflow-x: hidden;
+}
+
+/*header*/
+nav {
+    height: 10vh;
+    background-color: rgb(26, 34, 78);
+    display: flex;
+    width: 100%;
+    padding: 0 100px;
+}
+
+nav h3 {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+
+}
+
+nav ul {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 100px;
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 0 20px;
+    font-family: regular;
+
+
+
+}
+
+/*end of header*/
+
+/*banner*/
+.hero {
+    height: 90vh;
+    background-color: rgb(30, 187, 166);
+    text-align: center;
+    color: rgb(white, );
+}
+.hero #star {
+    margin-top: 10;
+    width: 20%;
+}
+ 
+.hero #banner-inner {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 50px;
+    font-family: bold;
+    margin-top: 20px;
+}
+
+.hero p {
+    color: white;
+}
+
+.hero-inner img {
+    width: 7%;
+    margin-top: 5px;
+}
+
+nav ul li a:hover {
+    color: rgb(28, 188, 156);
+    font-size: 20px;
+    font-family: regular;
+    text-decoration: underline;
+}
+
+/*end of banner*/
+
+
+/*portfolio*/
+#portfolio {
+    height: 100vh;
+    text-align: center;
+    
+}
+
+#portfolio h2{
+    text-align: center;
+    color: rgb(26, 34, 78);
+    margin-top: 70px;
+    font-size: 35px;
+    font-family: bold;
+}
+
+#portfolio .content {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#portfolio .content #content-inner img{
+    width: 300px;
+    padding: 10px;
+    border: 1px;
+    border-color: none;
+    border-radius: 20px;
+    
+
+
+}
+
+#portfolio #blue-star {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 20%;
+}
+/*end of portfolio*/
+
+#about {
+    height: 65vh;
+    background-color: rgb(30, 187, 166);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+#about h2 {
+    font-size: 30px;
+    padding-top: 100px;
+    font-family: bold;
+
+}
+
+#about #one {
+    margin-top: 10px;
+    width: 20%;
+}
+
+#about .text {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#about .text .text-inner {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    font-family: regular;
+}
+
+#about a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+#contact{
+    height: 60vh;
+    text-align: center;
+}
+
+#contact #blue-star {
+    margin-top: 30px;
+    width: 20%;
+
+}
+
+#contact h2{
+    margin-top: 90px;
+    font-size: 30px;
+    font-family: bold;
+}
+
+
+
+form input {
+    font-size: 18px;
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 2px;
+    border-color: rgba(26, 34, 78, 0.13);
+    padding: 25px;
+    font-family: regular;
+}
+
+.contact-form button {
+    background-color: rgb(28, 188, 156);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 370px;
+    font-family: bold;
+
+}
+
+footer {
+    background-color: rgb(26, 34, 78);
+    color: rgb(255, 255, 255);
+    height: 40vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+span {
+    color: rgb(28, 188, 156);
+    font-family: regular;
+}
+
+
+footer #end p {
+
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family: regular;
+}
+
+
+#footer-inner {
+    
+    display: flex;
+justify-content: space-evenly;
+    width: 100%;
+    padding: 0 10px;
+    position: absolute;
+
+}
+
+#location h3 {
+    font-family: bold;
+    
+}
+
+
+#location {
+    padding-top: 80px;
+    
+}
+
+#location p {
+    margin-top: 20px;
+    font-family: regular;
+}
+
+
+#icons h3 {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-family: bold;
+}
+
+
+
+#icons img {
+    width: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 50%;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-top-color: white;
+    margin-left: 30px
+}
+
+footer #icons {
+    padding-left: 150px;
+    border-radius: 30px;
+
+}
+
+#about-freelancer {
+    margin-top: 80px;
+    margin-left: -35px;
+}
+
+#about-freelancer h3 {
+    font-family: regular;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+#about-freelancer p {
+    align-items: left;
+    width: 260px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+   font-family: regular;
+}
+
+#copyend {
+    margin-top: 250px;
+    padding-top: 20px;
+    background-color: rgb(5, 10, 35);
+    height: 10vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
